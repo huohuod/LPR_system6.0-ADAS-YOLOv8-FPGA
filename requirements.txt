@@ -1,0 +1,35 @@
+# LPR System v6.0 - GPU 加速版
+#
+# 安装方式:
+#   方案A (推荐): 先运行迁移脚本
+#       bash scripts/migrate_to_gpu.sh
+#
+#   方案B: 手动安装
+#       pip install torch==2.4.1 torchvision==0.19.1 --index-url https://download.pytorch.org/whl/cu124
+#       pip install -r requirements.txt
+#
+# 硬件要求: NVIDIA GPU (GTX 1060+ / RTX 2060+) + CUDA 12.4+
+
+# GUI
+PySide6>=6.5.0
+
+# 核心依赖
+numpy>=1.24.0
+opencv-python>=4.8.0
+Pillow>=10.0.0
+psutil>=5.9.0
+pynvml>=11.0.0
+
+# AI 推理 (GPU 版)
+# 注意: torch/torchvision 需通过 PyTorch 官方 CUDA 索引安装，详见上方说明
+torch>=2.4.1
+torchvision>=0.19.0
+ultralytics>=8.3.0
+
+# OCR (GPU 版)
+# 使用 onnxruntime-gpu 替代 onnxruntime 以获得 CUDA 加速推理
+onnxruntime-gpu>=1.19.0
+
+# 深度估计 (Depth Anything V2 Small)
+# 自带 dpt.py/dinov2.py 模型代码, 仅额外依赖 torch/torchvision/numpy (均已存在)
+depth-anything-v2
