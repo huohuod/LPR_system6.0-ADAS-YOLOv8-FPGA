@@ -1,0 +1,33 @@
+{D:/modelsim files/test_ddr_top.v} {0 {vlog -work work -vopt -stats=none {D:/modelsim files/test_ddr_top.v}
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module test_ddr
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(982): (vlog-2388) 'axis_master_tdata' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(983): (vlog-2388) 'pcie_data_out' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(1036): (vlog-2388) 'axis_slave2_tready' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(1037): (vlog-2388) 'axis_slave2_tvalid' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(1038): (vlog-2388) 'axis_slave2_tdata' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(1039): (vlog-2388) 'axis_slave2_tlast' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(1040): (vlog-2388) 'axis_slave2_tuser' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(1042): (vlog-2388) 'cfg_pbus_num' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(1043): (vlog-2388) 'cfg_pbus_dev_num' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(1049): (vlog-2388) 'core_rst_n' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(1050): (vlog-2388) 'sync_button_rst_n' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(1051): (vlog-2388) 'sync_perst_n' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(1206): (vlog-2388) 'eth0_img_de' already declared in this scope (test_ddr).
+
+** Error (suppressible): D:/modelsim files/test_ddr_top.v(1207): (vlog-2388) 'eth0_img_data' already declared in this scope (test_ddr).
+
+
+} {} {}}
